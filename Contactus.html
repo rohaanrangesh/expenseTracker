@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+    <head>   
+        
+        <title> Prelude Sys</title>
+        
+    
+<link href="navigation.css" rel="stylesheet" type="text/css"/>
+<link href="slideshow1.css" rel="stylesheet" type="text/css"/>
+        <link href="body.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 9px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+        </style>
+    </head>
+    
+    <body background="background.jpg" 
+       
+        <a href="ITGS.html">
+        <img src="prelude logo (1).png" width="320" >                       
+        </a>
+        <ul>
+            <li> <a href="ITGS.html"><font color="white" size="5" face="Helvetica">Home</font></a></li>
+            <li> <a href="Aboutus.html"><font color="white" size="5" face="Helvetica">About Us</font></a></li>
+        <div class="dropdown">
+            <button class="dropbtn"><font color="white" size="5" face="Helvetica">Services</font></button>
+                 <div class="dropdown-content">
+                     <a href="Service1.html"><font face="Helvetica" size="5">Application</font></a>
+                     <a href="Service1.html#Hardware"><font face="Helvetica" size="5">Hardware</font></a>
+                     <a href="Service1.html#Software"><font face="Helvetica" size="5">Software</font></a>
+                </div>
+            </div>
+            <li> <a href="Contactus.html"><font color="white" size="5" face="Helvetica">Contact Us</font></a></li>
+        </ul>
+        <br>
+
+        <table cellpadding="80">
+            <tr>
+                <td></td>
+                <td>
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+                </td>
+                
+                <td><font face="Helvetica"><h2>HEAD OFFICE ADDRESS</h2>
+                    <b> <font size="5">  Corporate Office</font></b>
+<br><font size="5">California
+<br>5 Corporate Park
+<br>Suite #140
+<br>Irvine, CA 92606
+<br>Tel: 949-208-7126</font>
+
+                    <br>  <br>  Email: info@preludesys.com<br><br></font><a href="https://www.facebook.com/Prelude-Sys-823152601199591/?pnref=story.unseen-section" class="fa fa-facebook"></a><font color="white" face="Helvetica">Follow us on FB!</font>
+                </td>
+            </tr>
+        </table>
+        
+        <table cellpadding="30">
+            <td></td><th>    <h2><font face="Helvetica">OTHER LOCATIONS</font></h2></th>
+        <tr>
+            <td></td>
+            <td><font face="Helvetica">
+             <b>Texas</b>   <br>
+100 Congress,<br>
+Suite #2000<br>
+Austin,<br>
+                TX 78701<br></font>
+            </td>
+            <td><font face="Helvetica">
+                <b>   Illinois</b><br>
+4320 Winfield Road<br>
+Suite#200<br>
+Warrenville,<br>
+                IL 60555<br></font>
+            </td>
+            <td>
+               <font face="Helvetica"> <b>Chennai – Siruseri</b><br>
+PreludeSys India Ltd<br>
+Old No. D-12, New No. 3/A3,<br>
+1st Cross Street, Siruseri SIPCOT IT Park,<br>
+                   Chennai – 603 103.<br></font>
+                
+            </td>
+            <td>
+               <font face="Helvetica"> <b>Chennai – Kilpauk</b><br>
+PreludeSys India Ltd<br>
+Dowlath Towers, 2nd Floor,<br>
+59, Taylors Road, Kilpauk<br>
+                   Chennai – 600 010<br></font>
+            </td>
+            </tr>
+        </table>
+
+                        
+<br>
+<script>
+function myMap() {
+
+ var myCenter = new google.maps.LatLng(33.69035900000001, -117.82705629999998);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 5};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+<br>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDklWf4PsyBHlhfHJclAiZO1aFHxw3K8kg&callback=myMap "></script>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfWhuBaWleN8bxxw336A9HnGBvwMoomZdrSjXbk_QnMG3zAxQ/viewform?usp=sf_link" target="_blank" class="btn" role="button" style="width:400px; display:block; margin:0 auto; margin-top: 30px; margin-bottom: 30px;">Book an Appointment</a>
+
+        <footer>© 2017 PreludeSys. All rights reserved</footer>
+    </body>
+
+<body oncontextmenu="return false;">
+
+
+</html>
